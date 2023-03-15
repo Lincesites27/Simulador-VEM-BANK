@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <h5>De quanto você precisa?</h5>
+            <h4 id="valorTxt">R$30.000,00</h4>
+           
+                <input type="range" value="50000" min="150" max="50000" step="1500" id="valorInput">
+            
+           
+            <div class="divisores">
+                <h5>R$150,00</h5>
+                <h5>R$50.000,00</h5>
+            </div>
+
+            <h5>Em quantos meses quer pagar?</h5>
+            <h4 id="valorTxtMes">48 <span>Meses</span></h4>
+            <input type="range" value="48" min="12" max="84" step="12" id="valorInputMes">
+            <div class="divisores">
+                <h5>12 meses</h5>
+                <h5>48 meses</h5>
+            </div>
+        </div>
+        <div class="container-right">
+            <h5>Parcela mensal aproximada</h5>
+            <h3 id="valorEntradaMes">48x</h3>
+            <h2 id="valorEntradaMensalidade">R$1.000,00</h2>
+
+            <tr></tr>
+
+            <h5>Estamos considerando a taxa fornecida pelo parceiro.</h5>
+            
+        </div>
+    </div>
+</body>
+</html>
